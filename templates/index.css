@@ -1,0 +1,85 @@
+body{
+  margin: 0;
+  padding: 0;
+  top: 0;
+  left: 0;
+  font-family: "sans", sans-serif;
+}
+
+.navbar{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: yellow;
+  text-decoration: none;
+  box-shadow: 0 0 10px 5px rgb(25,25,25,0.4);
+  background: white;
+  z-index: 10000;
+}
+
+.navbar ul{
+  display: flex;
+  flex-direction: row;
+  text-decoration: none;
+  list-style-type: none;
+  gap: 5px;
+}
+
+.navbar ul li{
+  text-decoration: none;
+  border: 1px solid gray;
+  padding: 10px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-family: "sans", sans-serif;
+}
+
+.navbar ul li:hover{
+  text-decoration: none;
+  border: 1px solid gray;
+  background-color: lightblue;
+  padding: 10px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-family: "sans", sans-serif;
+}
+
+.hero{
+  width: 100%;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: tomato;
+  color: white
+}
+
+.hero h1{
+  font-size: 50px;
+  margin: 0;
+}
+
+.hero p{
+  font-size: 20px;
+}
+
+.seccion {
+  margin-inline: 120px
+}
+
+.seccion h2{
+  font-size: 50px;
+}
+
+.seccion p{
+  font-size: 20px;
+}
+
+.card{
+  display: flex;
+  flex-direction: row;
+  border: 1px solid gray;
+  border-radius: 50px;
+  padding: 50px;
+}
