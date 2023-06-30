@@ -5,3 +5,7 @@ from fastapi.templating import Jinja2Templates
 import json
 
 app = FastAPI()
+
+@app.get('/')
+def root():
+  return 'Hola mundo'
